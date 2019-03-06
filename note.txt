@@ -54,3 +54,25 @@ nodeType:
   文本          3
   注释          8
   文档          9
+elementNode.childNodes:
+访问选定元素节点下的所有子节点的列表，返回值可以看作是一个数组，他具有length属性
+如果选定的节点没有子节点，则该属性返回不包含节点的NodeList
+返回子节点的第一项和最后一项：
+node.firstChild
+如果选定的节点没有子节点免责该属性返回NULL
+与elementNode.childNodes[0]是同样的效果
+node.lastChild
+与node.childNodes[node.childNodes.length-1]是同样的效果
+IE浏览器会忽略节点之间生成的空白文节点，其他浏览器则不会。
+访问父节点parentNode
+elementNode.parentNode
+标签内容的输出：使用innerHTML
+访问兄弟节点：
+nodeObject.nextSibling:返回某个节点之后紧跟的节点(处于同一树层级中)
+如果无此节点，则该属性返回null
+previousSibling:返回某个节点之前紧跟的节点（处于同一树层级中）
+nodeObject.prevoiusSibling:两个属性获取的都是节点，IE浏览器会忽略节点间生成的空白文本节点，如换行符等，其他浏览器不会忽略
+解决问题的办法:判断节点nodeType是否为1，如果是，为元素节点，则跳过
+插入节点appendChild():
+在指定节点的最后一个子节点列表之后添加一个新的子节点
+appendChild(newnode);
