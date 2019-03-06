@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>appendchild的使用方法</title>
+</head>
+<body>
+<div id="div1">
+<p>你好</p>
+<div>hello</div>
+</div>
+<script type="text/javascript">
+var newNode=document.createElement("p");
+var i=document.getElementById("div1");
+newNode.innerHTML="你好哦";
+i.appendChild(newNode);
+</script>
+</body>
+</html>
