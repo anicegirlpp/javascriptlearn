@@ -5,16 +5,13 @@
 </head>
 <body>
 <div id="parentid">
-<p>你好</p>
-<p>nihao</p>
-<p id="childid">好</p>
+<p>你好</p><p>nihao</p><p>好</p>
 </div>
 <script type="text/javascript">
 var parentid=document.getElementById("parentid");
-var childid=document.getElementById("childid");
 var newnode=document.createElement("p");
 newnode.innerHTML="是";
-parentid.insertBefore(newnode,childid);
+parentid.insertBefore(newnode,parentid.childNodes[1]);
 </script>
 </body>
 </html>
