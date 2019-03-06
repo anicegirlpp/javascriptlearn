@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>insertbefore方法的使用</title>
+<meta http-euqiv="content-type" content="text/html;charset=utf-8">
+</head>
+<body>
+<div id="parentid">
+<p>你好</p>
+<p>nihao</p>
+<p id="childid">好</p>
+</div>
+<script type="text/javascript">
+var parentid=document.getElementById("parentid");
+var childid=document.getElementById("childid");
+var newnode=document.createElement("p");
+newnode.innerHTML="是";
+parentid.insertBefore(newnode,childid);
+</script>
+</body>
+</html>
