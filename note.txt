@@ -76,3 +76,10 @@ nodeObject.prevoiusSibling:Á½¸öÊôÐÔ»ñÈ¡µÄ¶¼ÊÇ½Úµã£¬IEä¯ÀÀÆ÷»áºöÂÔ½Úµã¼äÉú³ÉµÄ¿Õ°
 ²åÈë½ÚµãappendChild():
 ÔÚÖ¸¶¨½ÚµãµÄ×îºóÒ»¸ö×Ó½ÚµãÁÐ±íÖ®ºóÌí¼ÓÒ»¸öÐÂµÄ×Ó½Úµã
 appendChild(newnode);
+insertBefore()·½·¨¿ÉÔÚÒÑÓÐµÄ×Ó½ÚµãÇ°²åÈëÐÂ½Úµã
+¸¸½Úµã.insertBefore(newnode,node):
+newnodeÒª²åÈëµÄÐÂ½Úµã£¬node:Ö¸¶¨ÔÚ´Ë½ÚµãÇ°²åÈë½Úµã
+É¾³ý½Úµã£ºremoveChild():
+´Ó×Ó½ÚµãÁÐ±íÖÐÉ¾³ýÄ³¸ö½Úµã£¬ÈçÉ¾³ý³É¹¦£¬·µ»Ø±»É¾³ýµÄ½Úµã£¬ÈçÊ§°Ü£¬Ôò·µ»Ønull
+Èç¹û°ÑÉ¾³ýµÄ×Ó½Úµã¸³Öµ¸øÒ»¸ö±äÁ¿£¬Ôò¸Ã×Ó½Úµã²»ÔÚDOMÊ÷ÖÐ£¬µ«ÊÇ»¹´æÔÚÄÚ´æÖÐ£¬¿ÉÍ¨¹ýx²Ù×÷
+Èç¹ûÒªÍêÈ«É¾³ý¶ÔÏó£¬ÔòÐèÒª¸øx¸³nullÖµ
