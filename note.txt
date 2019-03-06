@@ -1,0 +1,3 @@
+navigatior.userAgent:返回包括浏览器版本信息等的字符串
+screen对象用于获取用户的屏幕信息
+window.screen.属性:
