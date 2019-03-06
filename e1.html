@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="type-content" content="text/html;charset=utf-8">
+<title>getElementsByName()方法的使用</title>
+<script type="text/javascript">
+function count(){
+var elemt=document.getElementsByName("txt");
+alert(elemt.length);
+}
+</script>
+</head>
+<body>
+<input type="text" name="txt" value="1"/>
+<input type="text" name="txt" value="2"/>
+<input type="text" name="txt" value="3"/>
+<input type="text" name="txt" value="4"/>
+<input type="text" name="txt" value="5"/>
+<input type="text" name="txt" value="6"/>
+<input type="button" value="看看有几项" onclick="count()"/>
+</body>
+</html>
